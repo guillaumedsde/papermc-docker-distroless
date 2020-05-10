@@ -1,6 +1,6 @@
 # PaperMC Minecraft Server distroless docker container
 
-[![Docker build status](https://img.shields.io/docker/cloud/build/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/builds)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/guillaumedsde/papermc-docker-distroless?label=docker%20build)](https://gitlab.com/guillaumedsde/papermc-docker-distroless/pipelines)
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/builds)
 [![Docker Pulls](https://img.shields.io/docker/pulls/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/)
