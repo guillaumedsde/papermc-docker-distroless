@@ -12,8 +12,6 @@ for i in "${!versions[@]}"; do
 
     echo "Building ${current_image}"
 
-    continue
-
     # build and push image
     docker build . --pull --tag ${current_image} --build-arg PAPERMC_VERSION=${version}
     docker push ${current_image}
