@@ -1,3 +1,4 @@
+#!/bin/bash
 # get a list of papermc versions
 versions=($(curl -k https://papermc.io/api/v1/paper/ | jq -r '.versions | @sh' -))
 
