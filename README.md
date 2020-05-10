@@ -24,7 +24,7 @@ $ docker run \
     -v $(pwd)/papermc:/papermc \
     -e JAVA_TOOL_OPTIONS="-Xms2G -Xmx2G" \
     -p 25565:25565 \
-    guillaumedsde/papermc:latest
+    guillaumedsde/papermc-docker-distroless:latest
 ```
 
 
