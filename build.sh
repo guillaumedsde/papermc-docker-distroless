@@ -8,7 +8,7 @@ for i in "${!versions[@]}"; do
     version=$(echo "${versions[$i]//\'/}")
 
     # image tag
-    current_image="papermc-docker-distroless:${version}"
+    current_image="${CI_REGISTRY_USER}/papermc-docker-distroless:${version}"
 
     echo "Building ${current_image}"
 
@@ -18,7 +18,7 @@ for i in "${!versions[@]}"; do
 
     # tag and push latest if latest version
     if [ $i == 0 ]; then
-        latest_image=papermc-docker-distroless:latest
+        latest_image="${CI_REGISTRY_USER}/papermc-docker-distroless:latest"
         echo "Building ${latest_image}"
         docker tag ${current_image} ${latest_image}
         docker push ${latest_image}
