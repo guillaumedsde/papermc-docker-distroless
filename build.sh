@@ -1,5 +1,5 @@
 # get a list of papermc versions
-versions=($(curl -k https://papermc.io/api/v1/paper/ | jq -r '.versions | @sh' -)) && printf '%s\n' "${arr[@]}"
+versions=($(curl -k https://papermc.io/api/v1/paper/ | jq -r '.versions | @sh' -))
 
 # build all versions
 for i in "${!versions[@]}"; do
