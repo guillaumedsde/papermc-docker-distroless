@@ -2,7 +2,7 @@
 
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/guillaumedsde/papermc-docker-distroless?label=docker%20build)](https://gitlab.com/guillaumedsde/papermc-docker-distroless/pipelines)
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/)
-[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/builds)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/guillaumedsde/papermc-docker-distroless/latest)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/builds)
 [![Docker Pulls](https://img.shields.io/docker/pulls/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/)
 [![Docker Stars](https://img.shields.io/docker/stars/guillaumedsde/papermc-docker-distroless)](https://hub.docker.com/r/guillaumedsde/papermc-docker-distroless/)
 [![GitHub stars](https://img.shields.io/github/stars/guillaumedsde/papermc-docker-distroless)](https://github.com/guillaumedsde/papermc-docker-distroless)
@@ -40,7 +40,7 @@ services:
             - 'JAVA_TOOL_OPTIONS=-Xms2G -Xmx2G'
         ports:
             - '25565:25565'
-        image: guillaumedsde/papermc:latest
+        image: guillaumedsde/papermc-docker-distroless:latest
 ```
 
 ## TODO
